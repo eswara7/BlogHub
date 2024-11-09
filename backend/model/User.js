@@ -22,4 +22,5 @@ const userSchema = new Schema({
     }]
 });
 const User = mongoose.model("User",userSchema)
+//naming convention first cap User will be saved as users in db
 export default User
